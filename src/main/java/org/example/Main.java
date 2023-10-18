@@ -15,7 +15,7 @@ public class Main {
 
         Ray ray = new Ray(
                 new Vector3D(0,0,5),
-                new Vector3D(0,0,-1)
+                new Vector3D(0,1,-1)
         );
 
         var intersectionCalculator = new IntersectionCalculator();

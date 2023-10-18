@@ -49,6 +49,8 @@ package org.example;
 //    def dot(cls, vec1: 'Vector3D', vec2: 'Vector3D') -> float:
 //            return vec1.x*vec2.x + vec1.y*vec2.y + vec1.z*vec2.z
 
+import java.util.Objects;
+
 public class Vector3D {
     private float x, y, z;
 
@@ -109,5 +111,18 @@ public class Vector3D {
                 ", y=" + y +
                 ", z=" + z +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Vector3D vector3D = (Vector3D) o;
+        return Float.compare(vector3D.x, x) == 0 && Float.compare(vector3D.y, y) == 0 && Float.compare(vector3D.z, z) == 0;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(x, y, z);
     }
 }

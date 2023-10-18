@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0947d166-7394-402b-97b9-1394f8ff9b07" name="Changes" comment="Added raycasting">
+    <list default="true" id="0947d166-7394-402b-97b9-1394f8ff9b07" name="Changes" comment="Modified uml diagram">
+      <change afterPath="$PROJECT_DIR$/src/test/java/IntersectionCalculatorTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/IntersectionCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/IntersectionCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Plane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Ray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Ray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Vector3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Vector3D.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +25,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/conflict-branch" />
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="conflict-branch" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MacroExpansionManager">
@@ -40,15 +48,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml"
   }
-}</component>
+}]]></component>
+  <component name="RunManager" selected="JUnit.IntersectionCalculatorTests">
+    <configuration name="IntersectionCalculatorTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IntersectionCalculatorTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntersectionCalculatorTests.testRayProperlyIntersectsPlane" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IntersectionCalculatorTests" />
+      <option name="METHOD_NAME" value="testRayProperlyIntersectsPlane()" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.IntersectionCalculatorTests" />
+        <item itemvalue="JUnit.IntersectionCalculatorTests.testRayProperlyIntersectsPlane" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,7 +101,7 @@
       <workItem from="1697620862105" duration="534000" />
       <workItem from="1697621404437" duration="609000" />
       <workItem from="1697623894726" duration="3396000" />
-      <workItem from="1697627329020" duration="546000" />
+      <workItem from="1697627329020" duration="2282000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1696421963607</created>
@@ -85,7 +124,42 @@
       <option name="project" value="LOCAL" />
       <updated>1697627618594</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fixed errors">
+      <created>1697628121553</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697628121553</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added conflicting line B">
+      <created>1697628367782</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697628367782</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added conflicting line A">
+      <created>1697628384355</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697628384355</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added uml diagram">
+      <created>1697628434547</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697628434547</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Modified uml diagram">
+      <created>1697628660508</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697628660508</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,7 +179,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Added raycasting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added raycasting" />
+    <MESSAGE value="Fixed errors" />
+    <MESSAGE value="Added conflicting line B" />
+    <MESSAGE value="Added conflicting line A" />
+    <MESSAGE value="Added uml diagram" />
+    <MESSAGE value="Modified uml diagram" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified uml diagram" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
