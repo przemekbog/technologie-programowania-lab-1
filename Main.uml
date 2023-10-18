@@ -3,54 +3,55 @@
   <ID>JAVA</ID>
   <OriginalElement>org.example.Main</OriginalElement>
   <nodes>
-    <node x="-184.25562286376953" y="-74.95145702362043">org.example.Plane</node>
-    <node x="-642.6099853515625" y="-250.95145702362043">org.example.Vector3D</node>
-    <node x="-177.2685136795044" y="-230.762481689453">org.example.Ray</node>
-    <node x="146.93335247039784" y="-164.762481689453">org.example.IntersectionCalculator</node>
-    <node x="-143.75562286376953" y="118.75205421447771">org.example.Main</node>
+    <node x="-305.23232198766766" y="-290.73302807575925">org.example.Plane</node>
+    <node x="-691.581689420133" y="-414.7005925029031">org.example.Vector3D</node>
+    <node x="-291.23232198766766" y="-449.6047842458775">org.example.Ray</node>
+    <node x="160.2995807369333" y="-426.4550253058767">org.example.IntersectionCalculator</node>
+    <node x="-74.8891640173423" y="-69.48293329909029">org.example.Main</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="org.example.Main" target="org.example.Plane" relationship="GENERALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="0.0" y="0.0" />
+    <edge source="org.example.Plane" target="org.example.Vector3D" relationship="TO_ONE">
+      <point x="3.219876676610056E-4" y="-59.499971924240754" />
+      <point x="-181.732" y="-310.0" />
+      <point x="-322.732" y="-310.0" />
+      <point x="-322.732" y="-267.201" />
+      <point x="145.999689420133" y="-4.074970969440983E-4" />
     </edge>
-    <edge source="org.example.Main" target="org.example.Vector3D" relationship="GENERALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="-248.11917257308957" y="145.2520542144777" />
-      <point x="-248.11917257308957" y="-103.45145702362043" />
-      <point x="0.0" y="0.0" />
+    <edge source="org.example.Main" target="org.example.Plane" relationship="CREATE">
+      <point x="-16.911827978185784" y="-26.5" />
+      <point x="-8.80099199552808" y="-145.09383272171002" />
+      <point x="-181.73232198766766" y="-145.09383272171002" />
+      <point x="0.0" y="59.5" />
     </edge>
-    <edge source="org.example.IntersectionCalculator" target="org.example.Ray" relationship="GENERALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="401.93335247039784" y="-171.262481689453" />
-      <point x="0.0" y="0.0" />
+    <edge source="org.example.Main" target="org.example.Vector3D" relationship="CREATE">
+      <point x="-83.0" y="0.0" />
+      <point x="-545.581689420133" y="-42.98293329909029" />
+      <point x="0.0" y="147.5" />
     </edge>
-    <edge source="org.example.Plane" target="org.example.Vector3D" relationship="GENERALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="-248.11917257308957" y="-15.451457023620435" />
-      <point x="-248.11917257308957" y="-103.45145702362043" />
-      <point x="0.0" y="0.0" />
+    <edge source="org.example.Main" target="org.example.IntersectionCalculator" relationship="CREATE">
+      <point x="83.0" y="15.0" />
+      <point x="415.2995807369333" y="-27.98293329909029" />
+      <point x="0.0" y="26.5" />
     </edge>
-    <edge source="org.example.Ray" target="org.example.Vector3D" relationship="GENERALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="-496.6099853515625" y="-171.262481689453" />
-      <point x="0.0" y="0.0" />
+    <edge source="org.example.Main" target="org.example.Ray" relationship="CREATE">
+      <point x="83.0" y="0.0" />
+      <point x="15.891210841617067" y="-42.98293329909029" />
+      <point x="15.891210841617067" y="-390.1047842458775" />
+      <point x="109.5" y="0.0" />
     </edge>
-    <edge source="org.example.IntersectionCalculator" target="org.example.Plane" relationship="GENERALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="401.93335247039784" y="-15.451457023620435" />
-      <point x="0.0" y="0.0" />
-    </edge>
-    <edge source="org.example.Main" target="org.example.Ray" relationship="GENERALIZATION">
-      <point x="0.0" y="0.0" />
-      <point x="120.71667623519897" y="145.2520542144777" />
-      <point x="120.71667623519897" y="-171.262481689453" />
-      <point x="0.0" y="0.0" />
+    <edge source="org.example.Ray" target="org.example.Vector3D" relationship="TO_ONE">
+      <point x="3.219876676610056E-4" y="59.49978424587749" />
+      <point x="-181.732" y="-310.0" />
+      <point x="-322.732" y="-310.0" />
+      <point x="-322.732" y="-267.201" />
+      <point x="145.999689420133" y="-4.074970969440983E-4" />
     </edge>
   </edges>
-  <settings layout="Hierarchic" zoom="0.7156035304643478" showDependencies="false" x="155.30086894989017" y="281.18765632629385" />
-  <SelectedNodes />
+  <settings layout="Hierarchic" zoom="0.6534385643430619" showDependencies="true" x="46.892334347031465" y="-163.66697974609764" />
+  <SelectedNodes>
+    <node>org.example.IntersectionCalculator</node>
+  </SelectedNodes>
   <Categories>
     <Category>Methods</Category>
   </Categories>
