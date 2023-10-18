@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Optional;
 
-public class IntersectionCalculator extends Ray {
+public class IntersectionCalculator {
     private static final float EPSILON = 1e-6f;
 
     public Optional<Vector3D> calculateIntersectionBetweenRayAndPlane(Ray ray, Plane plane) {

@@ -1,6 +1,6 @@
 package org.example;
 
-public class Plane extends Vector3D {
+public class Plane {
     private Vector3D pointOnPlane;
     private Vector3D planeNormal;
 

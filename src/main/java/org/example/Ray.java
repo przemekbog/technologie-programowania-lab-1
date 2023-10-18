@@ -1,6 +1,6 @@
 package org.example;
 
-public class Ray extends Vector3D {
+public class Ray {
     private Vector3D origin;
     private Vector3D direction;
 
