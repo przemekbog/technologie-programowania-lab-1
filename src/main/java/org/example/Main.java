@@ -6,6 +6,8 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
 
+        // Konfliktujaca linijka A
+
         Plane plane = new Plane(
                 new Vector3D(0,0,0),
                 new Vector3D(0,0,1)
